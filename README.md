@@ -4,14 +4,14 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
 
 ##  Özellikler
 
-- ✅ Harici API ve Mock veri entegrasyonu
-- ✅ LocalStorage ile veri kalıcılığı (Persist)
-- ✅ Yeni ürün ve stok girişi (Form doğrulama)
-- ✅ Ürün düzenleme ve silme (Modal destekli CRUD)
-- ✅ Kritik stok seviyesi uyarısı ve dinamik filtreleme
-- ✅ Tedarikçi ve sipariş yaşam döngüsü takibi
-- ✅ TypeScript desteği
-- ✅ Netlify'a deploy edilebilir
+- Harici API ve Mock veri entegrasyonu
+- LocalStorage ile veri kalıcılığı (Persist)
+- Yeni ürün ve stok girişi (Form doğrulama)
+- Ürün düzenleme ve silme (Modal destekli CRUD)
+- Kritik stok seviyesi uyarısı ve dinamik filtreleme
+- Tedarikçi ve sipariş yaşam döngüsü takibi
+- TypeScript desteği
+- Netlify'a deploy edilebilir
 
 ##  Kurulum ve Çalıştırma
 
