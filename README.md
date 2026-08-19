@@ -23,13 +23,30 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
 
 ### Adımlar
 
-1. **Proje bağımlılıklarını yükleyin:**
+1. **Projeyi klonlayın ve proje dizinine geçin:**
+   ```bash
+   git clone [https://github.com/Aysuuygun/stock-app.git](https://github.com/Aysuuygun/stock-app.git)
+   cd stock-app
+   ```[cite: 1]
+
+2. **Gerekli tüm paket bağımlılıklarını yükleyin:**
    ```bash
    npm install
+   ```
 
-2. **Geliştirme sunucusunu başlatın:**
+3. **Geliştirme (development) sunucusunu başlatın:**
    ```bash
    npm run dev
+   ```
+
+4. **Uygulamayı tarayıcınızda açın:**
+   Terminalde belirtilen yerel sunucu adresine gidin:
+   `http://localhost:5173`
+
+5. **(Opsiyonel) Üretim sürümü (Production build) çıktısı almak için:**
+   ```bash
+   npm run build
+   ```
 
 
 Artık uygulamanız http://localhost:5173 adresinde çalışıyor olmalı!
@@ -84,6 +101,17 @@ app/
 - **Lucide React** - Arayüz ikonları
 - **Vite** - Build tool
 - **Netlify** - Hosting
+
+
+## Bağlantılar
+
+- **Canlı Demo (Netlify):** [https://stock-app-web.netlify.app](https://stock-app-web.netlify.app)
+- **GitHub Reposu:** [https://github.com/Aysuuygun/stock-app](https://github.com/Aysuuygun/stock-app)
+
+## Geliştirici
+
+Aysu Uygun
+Software Persona Yazılım Mesleki Gelişim Stajyeri
 
 
 
