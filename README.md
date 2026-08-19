@@ -1,6 +1,8 @@
-# React / Remix Stok ve Envanter Yönetim Uygulaması
+##  Akıllı Stok ve Envanter Yönetim Paneli (StockTrack ERP)
 
-React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegrasyonlu kapsamlı bir stok, sipariş ve tedarikçi yönetim (CRUD) uygulaması.
+Bu proje; React Router / Remix mimarisi, TypeScript ve Tailwind CSS kullanılarak geliştirilmiş, işletmelerin envanter ve tedarik operasyonlarını uçtan uca yönetmelerini sağlayan modern bir **Stok ve Envanter Yönetim Web Uygulamasıdır**. 
+
+Uygulama; anlık ürün ekleme, düzenleme ve silme (CRUD) işlemlerinin yanı sıra kritik stok uyarıları, tedarikçi kartları, sipariş yaşam döngüsü takibi ve finansal envanter raporlaması gibi temel operasyonel ihtiyaçları tek bir merkezde toplar. LocalStorage desteğiyle verileri tarayıcıda kalıcı olarak saklarken, tam duyarlı (responsive) tasarımı ve açık/koyu tema desteği ile kullanıcı dostu bir deneyim sunar.
 
 ## Özellikler
 
