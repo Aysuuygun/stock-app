@@ -31,3 +31,32 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
  ```bash
    npm run dev
 
+
+Artık uygulamanız http://localhost:5173 adresinde çalışıyor olmalı!
+
+Deploy (Netlify)
+GitHub'a push et  
+MD
+
+Netlify'da "Import an existing project" seçeneğini seç  
+MD
+
+GitHub reposunu (stock-app) bağla  
+MD
+
+Build komutu: npm run build
+
+  
+MD
+
+Publish dizini: build/client
+
+  
+MD
+
+Veya Netlify CLI ile:
+
+Bash
+npm install -g netlify-cli
+netlify login
+netlify deploy --prod
