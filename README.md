@@ -77,11 +77,11 @@ app/
 
 ##  Teknolojiler
 
--Remix / React Router - React framework[cite: 1]
--TypeScript - Tip güvenliği[cite: 1]
--Tailwind CSS - Modern ve duyarlı stillendirme[cite: 1]
--Lucide React - Arayüz ikonları[cite: 1]
--Vite - Build tool[cite: 1]
+-Remix / React Router - React framework
+-TypeScript - Tip güvenliği
+-Tailwind CSS - Modern ve duyarlı stillendirme
+-Lucide React - Arayüz ikonları
+-Vite - Build tool
 
 -Netlify - Hosting[cite: 1]
 
