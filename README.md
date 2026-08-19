@@ -26,37 +26,66 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
    ```bash
    npm install
 
-2.**Geliştirme sunucusunu başlatın:**
-
- ```bash
+2. **Geliştirme sunucusunu başlatın:**
+   ```bash
    npm run dev
 
 
 Artık uygulamanız http://localhost:5173 adresinde çalışıyor olmalı!
 
-Deploy (Netlify)
-GitHub'a push et  
-MD
+## Deploy (Netlify)
 
-Netlify'da "Import an existing project" seçeneğini seç  
-MD
-
-GitHub reposunu (stock-app) bağla  
-MD
-
-Build komutu: npm run build
-
-  
-MD
-
-Publish dizini: build/client
-
-  
-MD
+1. GitHub'a push et
+2. Netlify'da "Import an existing project" seçeneğini seç
+3. GitHub reposunu (stock-app) bağla
+4. Build komutu: `npm run build`
+5. Publish dizini: `build/client`
 
 Veya Netlify CLI ile:
 
-Bash
+```bash
 npm install -g netlify-cli
 netlify login
 netlify deploy --prod
+```
+
+##  Proje Yapısı
+app/
+├── components/
+│   ├── EditProductModal.tsx   # Ürün düzenleme modalı
+│   ├── Header.tsx             # Üst menü ve tema kontrol çubuğu
+│   ├── ProductForm.tsx        # Yeni ürün ekleme formu
+│   └── ProductList.tsx        # Liste görünümü ve kartlar
+├── hooks/
+│   └── useProducts.ts         # Custom hook (CRUD işlemleri)
+├── routes/
+│   ├── home.tsx               # Ana sayfa
+│   ├── orders.tsx             # Sipariş takibi
+│   ├── reports.tsx            # Raporlar ve analizler
+│   └── suppliers.tsx          # Tedarikçi yönetimi
+├── styles/
+│   └── app.css                # Global stiller
+├── types/
+│   └── product.ts             # TypeScript tipleri
+├── utils/
+│   ├── api.ts                 # API fonksiyonları
+│   └── storage.ts             # LocalStorage yardımcıları
+└── root.tsx                   # Uygulama kökü
+
+##  Teknolojiler
+
+-Remix / React Router - React framework[cite: 1]
+
+-TypeScript - Tip güvenliği[cite: 1]
+
+-Tailwind CSS - Modern ve duyarlı stillendirme[cite: 1]
+
+-Lucide React - Arayüz ikonları[cite: 1]
+
+-Vite - Build tool[cite: 1]
+
+-Netlify - Hosting[cite: 1]
+
+
+
+
