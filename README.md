@@ -75,15 +75,14 @@ app/
 └── root.tsx                   # Uygulama kökü
 ```
 
-##  Teknolojiler
+## Teknolojiler
 
--Remix / React Router - React framework
--TypeScript - Tip güvenliği
--Tailwind CSS - Modern ve duyarlı stillendirme
--Lucide React - Arayüz ikonları
--Vite - Build tool
-
--Netlify - Hosting[cite: 1]
+- **Remix / React Router** - React framework
+- **TypeScript** - Tip güvenliği
+- **Tailwind CSS** - Modern ve duyarlı stillendirme
+- **Lucide React** - Arayüz ikonları
+- **Vite** - Build tool
+- **Netlify** - Hosting
 
 
 
