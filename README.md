@@ -27,7 +27,7 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
    ```bash
    git clone [https://github.com/Aysuuygun/stock-app.git](https://github.com/Aysuuygun/stock-app.git)
    cd stock-app
-   ```[cite: 1]
+   ```
 
 2. **Gerekli tüm paket bağımlılıklarını yükleyin:**
    ```bash
@@ -42,14 +42,13 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
 4. **Uygulamayı tarayıcınızda açın:**
    Terminalde belirtilen yerel sunucu adresine gidin:
    `http://localhost:5173`
+Artık uygulamanız http://localhost:5173 adresinde çalışıyor olmalı!
 
 5. **(Opsiyonel) Üretim sürümü (Production build) çıktısı almak için:**
    ```bash
    npm run build
    ```
 
-
-Artık uygulamanız http://localhost:5173 adresinde çalışıyor olmalı!
 
 ## Deploy (Netlify)
 
