@@ -5,14 +5,14 @@ React tabanlı Remix framework ile geliştirilmiş, LocalStorage ve API entegras
 ## Özellikler
 
 - **Envanter ve Ürün Yönetimi (CRUD):** Yeni ürün ekleme, anlık düzenleme ve onaylı silme mekanizması
-- **Kritik Stok Uyarı Sistemi:** Belirlenen eşik altındaki ürünler için görsel uyarı rozetleri[cite: 1]
-- **Gelişmiş Arama ve Filtreleme:** Ürün adı/koda göre anlık arama, kategori filtreleme ve fiyata/stoğa göre sıralama[cite: 1]
-- **Tedarikçi Yönetimi:** Tedarikçi iletişim bilgileri, kategori ve performans puanlama sistemi[cite: 1]
-- **Sipariş Takibi:** Otomatik sipariş oluşturma ve sipariş durum yaşam döngüsü (Beklemede, Hazırlanıyor, Teslim Edildi)[cite: 1]
-- **Finansal Raporlama ve Analiz:** Toplam envanter değeri, kategori bazlı stok dağılımı ve analitik özet kartları[cite: 1]
-- **LocalStorage ile Veri Kalıcılığı:** Tarayıcı kapansa dahi tüm verilerin cihazda güvenle saklanması[cite: 1]
-- **Modern & Duyarlı UI/UX:** Karanlık/Aydınlık (Dark/Light) tema desteği ve mobil uyumlu Tailwind tasarımı[cite: 1]
-- **TypeScript & SPA Mimarisi:** Tam tip güvenliği ve Netlify üzerinde hızlı statik web dağıtımı[cite: 1]
+- **Kritik Stok Uyarı Sistemi:** Belirlenen eşik altındaki ürünler için görsel uyarı rozetleri
+- **Gelişmiş Arama ve Filtreleme:** Ürün adı/koda göre anlık arama, kategori filtreleme ve fiyata/stoğa göre sıralama
+- **Tedarikçi Yönetimi:** Tedarikçi iletişim bilgileri, kategori ve performans puanlama sistemi
+- **Sipariş Takibi:** Otomatik sipariş oluşturma ve sipariş durum yaşam döngüsü (Beklemede, Hazırlanıyor, Teslim Edildi)
+- **Finansal Raporlama ve Analiz:** Toplam envanter değeri, kategori bazlı stok dağılımı ve analitik özet kartları
+- **LocalStorage ile Veri Kalıcılığı:** Tarayıcı kapansa dahi tüm verilerin cihazda güvenle saklanması
+- **Modern & Duyarlı UI/UX:** Karanlık/Aydınlık (Dark/Light) tema desteği ve mobil uyumlu Tailwind tasarımı
+- **TypeScript & SPA Mimarisi:** Tam tip güvenliği ve Netlify üzerinde hızlı statik web dağıtımı
 
 ##  Kurulum ve Çalıştırma
 
