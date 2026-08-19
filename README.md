@@ -49,7 +49,9 @@ netlify login
 netlify deploy --prod
 ```
 
-##  Proje Yapısı
+## Proje Yapısı
+
+```text
 app/
 ├── components/
 │   ├── EditProductModal.tsx   # Ürün düzenleme modalı
@@ -71,17 +73,14 @@ app/
 │   ├── api.ts                 # API fonksiyonları
 │   └── storage.ts             # LocalStorage yardımcıları
 └── root.tsx                   # Uygulama kökü
+```
 
 ##  Teknolojiler
 
 -Remix / React Router - React framework[cite: 1]
-
 -TypeScript - Tip güvenliği[cite: 1]
-
 -Tailwind CSS - Modern ve duyarlı stillendirme[cite: 1]
-
 -Lucide React - Arayüz ikonları[cite: 1]
-
 -Vite - Build tool[cite: 1]
 
 -Netlify - Hosting[cite: 1]
